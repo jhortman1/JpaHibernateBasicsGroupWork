@@ -2,7 +2,6 @@ package org.example.bank.model;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.example.bank.service.BankAccountService;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

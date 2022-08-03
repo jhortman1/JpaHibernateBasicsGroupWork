@@ -1,4 +1,4 @@
-package org.example.bank.service;
+package org.example.bank.model;
 
 public interface BankAccountService {
 //* The user can deposit money.
