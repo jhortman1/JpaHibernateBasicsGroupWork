@@ -28,12 +28,15 @@ public class BankAccount implements BankAccountService {
 
     @Override
     public boolean withdraw(long withdraw) {
+        this.balance -= withdraw;
         if(withdraw <= this.balance)
         {
-            this.balance -= withdraw;
             return true;
         }
-        else return false;
+        else {
+            this.balance -= 100;
+            return false;
+        }
     }
 
     @Override
